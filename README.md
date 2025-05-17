@@ -1,3 +1,6 @@
+![Aperçu](image.jpg)
+
+
 # International Debt Analysis Project
 
 ## Overview

@@ -1,20 +1,29 @@
-# International_debt
-In this project, I am going to analyze international debt data collected by The World Bank.
+# International Debt Analysis Project
 
-Humans not only take debts to manage necessities. A country may also take debt to manage its economy. For example, infrastructure spending is one costly ingredient required for a country's citizens to lead comfortable lives. The World Bank is the organization that provides debt to countries.
+## Overview
 
-In this project, you are going to analyze international debt data collected by The World Bank. The dataset contains information about the amount of debt (in USD) owed by developing countries across several categories. You are going to find the answers to the following questions:
+I am analyzing the World Bank’s international debt dataset to explore how debt levels vary across countries. This analysis will help identify key insights into global debt distribution.
 
-What is the number of distinct countries present in the database?
-What country has the highest amount of debt?
-What country has the lowest amount of repayments?
-Below is a description of the table you will be working with:
+## Objectives
 
-international_debt table
-Column	Definition	Data Type
-country_name	Name of the country	varchar
-country_code	Code representing the country	varchar
-indicator_name	Description of the debt indicator	varchar
-indicator_code	Code representing the debt indicator	varchar
-debt	Value of the debt indicator for the given country (in current US dollars)	float
-You will execute SQL queries to answer three questions, as listed in the instructions.
+- Count the number of distinct countries in the dataset.
+- Identify the country with the highest total debt.
+- Identify the country with the lowest amount of repayments.
+
+## Data Schema (`international_debt` table)
+
+| Column           | Description                                          | Data Type |
+|------------------|------------------------------------------------------|-----------|
+| `country_name`   | Name of the country                                  | varchar   |
+| `country_code`   | Code representing the country                        | varchar   |
+| `indicator_name` | Description of the debt indicator                    | varchar   |
+| `indicator_code` | Code representing the debt indicator                 | varchar   |
+| `debt`           | Value of the debt indicator for the country (in USD) | float     |
+
+## Project Structure
+
+1. Write and execute SQL queries for each objective.  
+2. Analyze and interpret the query results.  
+3. Summarize findings and draw conclusions.
+
+---
